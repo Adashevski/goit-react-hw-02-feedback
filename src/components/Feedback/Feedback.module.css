@@ -1,0 +1,19 @@
+.FeedbackBtn {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.FeedbackItem {
+  margin: 5px;
+}
