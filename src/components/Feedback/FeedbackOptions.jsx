@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Feedback.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
@@ -9,7 +10,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           key={option}
           onClick={() => onLeaveFeedback(option)}
         >
-          {option}
+          {option.toUpperCase()}
         </button>
       ))}
     </div>

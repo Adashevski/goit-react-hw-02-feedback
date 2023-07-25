@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Feedback.module.css';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
